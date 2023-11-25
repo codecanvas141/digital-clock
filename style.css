@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: #1e1f24;
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 940px;
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid red; */
+}
+
+.days-container ul{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+.time-container, .date-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-container {
+    gap: 1rem;
+}
+
+.date-container {
+    gap: 0.5rem;
+}
+
+.am-pm {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-self: flex-end;
+}
+
+.date-container > div > svg {
+    width: 40px;
+    height: 60px;
+}
+
+ 
